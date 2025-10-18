@@ -172,7 +172,7 @@ USBok = False
 if find_library("usb-0.1") is not None or find_library("usb-1.0") is not None:
 	print("[LCD4linux] libusb found :-)", getEnigmaVersionString())
 	USBok = True
-Version = "V5.0-r34"
+Version = "V5.0-r36"
 L4LElist = L4Lelement()
 L4LdoThread = True
 LCD4enigma2config = resolveFilename(SCOPE_CONFIG)  # /etc/enigma2/
@@ -310,11 +310,13 @@ OnOffSelect = [("0", _("off")), ("1", _("on"))]
 TimeSelect = [("1", _("5s")), ("2", _("10s")), ("3", _("15s")), ("4", _("20s")), ("6", _("30s")), ("8", _("40s")), ("10", _("50s")), ("12", _("1min")), ("24", _("2min")), ("36", _("3min")), ("48", _("4min")), ("60", _("5min")), ("120", _("10min")), ("240", _("20min")), ("360", _("30min")), ("720", _("60min")), ("1440", _("2h")), ("2160", _("3h")), ("3600", _("5h"))]
 LCDSelect = [("1", _("LCD 1")), ("2", _("LCD 2")), ("12", _("LCD 1+2")), ("3", _("LCD 3")), ("13", _("LCD 1+3")), ("23", _("LCD 2+3")), ("123", _("LCD 1+2+3"))]
 LCDSwitchSelect = [("0", _("LCD 1-3")), ("1", _("LCD 1")), ("2", _("LCD 2")), ("3", _("LCD 3"))]
-LCDType = [("11", _("Pearl (or compatible LCD) 320x240")), ("12", _("Pearl (or compatible LCD) 240x320")), ("121", _("Corby@Pearl 128x128")), ("122", _("AX206 (or compatible LCD) 480x320")), ("123", _("AX206 (or compatible LCD) 800x480")),
- ("210", _("Samsung SPF-72H 800x480")), ("23", _("Samsung SPF-75H/76H 800x480")), ("24", _("Samsung SPF-87H 800x480")), ("25", _("Samsung SPF-87H old 800x480")), ("26", _("Samsung SPF-83H 800x600")),
- ("29", _("Samsung SPF-85H/86H 800x600")), ("212", _("Samsung SPF-85P/86P 800x600")), ("28", _("Samsung SPF-105P 1024x600")), ("27", _("Samsung SPF-107H 1024x600")), ("213", _("Samsung SPF-107H old 1024x600")),
- ("211", _("Samsung SPF-700T 800x600")), ("215", _("Samsung SPF-800P 800x480")), ("214", _("Samsung SPF-1000P 1024x600")), ("430", _("Internal TFT-LCD 400x240")), ("50", _("Internal Box-Skin-LCD")),
- ("31", _("only Picture 320x240")), ("33", _("only Picture 800x480")), ("36", _("only Picture 800x600")), ("37", _("only Picture 1024x600")), ("320", _("only Picture Custom Size")), ("420", _("only Picture Custom Size 2"))]
+LCDType = [
+	("11", _("Pearl (or compatible LCD) 320x240")), ("12", _("Pearl (or compatible LCD) 240x320")), ("121", _("Corby@Pearl 128x128")), ("122", _("AX206 (or compatible LCD) 480x320")), ("123", _("AX206 (or compatible LCD) 800x480")),
+	("210", _("Samsung SPF-72H 800x480")), ("23", _("Samsung SPF-75H/76H 800x480")), ("24", _("Samsung SPF-87H 800x480")), ("25", _("Samsung SPF-87H old 800x480")), ("26", _("Samsung SPF-83H 800x600")),
+	("29", _("Samsung SPF-85H/86H 800x600")), ("212", _("Samsung SPF-85P/86P 800x600")), ("28", _("Samsung SPF-105P 1024x600")), ("27", _("Samsung SPF-107H 1024x600")), ("213", _("Samsung SPF-107H old 1024x600")),
+	("211", _("Samsung SPF-700T 800x600")), ("215", _("Samsung SPF-800P 800x480")), ("214", _("Samsung SPF-1000P 1024x600")), ("216", _("Samsung SPF-800W 800x600")), ("217", _("Samsung SPF-1000W 1024x768")), ("430", _("Internal TFT-LCD 400x240")), ("50", _("Internal Box-Skin-LCD")),
+	("31", _("only Picture 320x240")), ("33", _("only Picture 800x480")), ("36", _("only Picture 800x600")), ("37", _("only Picture 1024x600")), ("320", _("only Picture Custom Size")), ("420", _("only Picture Custom Size 2"))
+]
 if PNGutilOK:
 	LCDType.insert(14, ("930", _("Internal Vu+ Duo2 LCD 400x240")))
 xmlLCDType = [("96x64", _("96x64")), ("128x32", _("128x32")), ("128x64", _("128x64")), ("132x64", _("132x64")), ("220x176", _("220x176")), ("255x64", _("255x64")), ("400x240", _("400x240")), ("480x320", _("480x320")), ("700x390", _("720x405")), ("800x480", _("800x480"))]
@@ -2890,12 +2892,12 @@ def getResolution(t, r):
 		MAX_W, MAX_H = 240, 320
 	elif t[1:] in ["3", "4", "5", "10", "15"]:
 		MAX_W, MAX_H = 800, 480
-	elif t[1:] in ["6", "9", "11", "12"]:
+	elif t[1:] in ["6", "9", "11", "12", "16"]:
 		MAX_W, MAX_H = 800, 600
 	elif t[1:] in ["7", "8", "13", "14"]:
 		MAX_W, MAX_H = 1024, 600
 	elif t[1:] == "17":
-		MAX_W, MAX_H = 220, 176
+		MAX_W, MAX_H = 1024, 768
 	elif t[1:] == "18":
 		MAX_W, MAX_H = 255, 64
 	elif t[1:] == "22":
@@ -8639,7 +8641,7 @@ class UpdateStatus(Screen):
 						self.SonosTrack = self.SonosSoCo.get_current_track_info()
 						self.Lvol = self.SonosSoCo.volume
 #						self.SonosTrack = {u'album': 'Sehnsucht', u'artist': 'Rammstein', u'title': 'Eifersucht', u'uri': 'x-sonos-spotify:spotify%3atrack%3a4Ugp6Wu4hVXnbEKT3Nrka0?sid=9&flags=8224&sn=3', u'playlist_position': '10', u'duration': '0:03:35', u'position': '0:01:39', u'album_art': u'http://192.168.0.84:1400/getaa?s=1&u=x-sonos-spotify%3aspotify%253atrack%253a4Ugp6Wu4hVXnbEKT3Nrka0%3fsid%3d9%26flags%3d8224%26sn%3d3', u'metadata': '<DIDL-Lite xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:r="urn:schemas-rinconnetworks-com:metadata-1-0/" xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"><item id="-1" parentID="-1" restricted="true"><res protocolInfo="sonos.com-spotify:*:audio/x-spotify:*" duration="0:03:35">x-sonos-spotify:spotify%3atrack%3a4Ugp6Wu4hVXnbEKT3Nrka0?sid=9&amp;flags=8224&amp;sn=3</res><r:streamContent></r:streamContent><upnp:albumArtURI>/getaa?s=1&amp;u=x-sonos-spotify%3aspotify%253atrack%253a4Ugp6Wu4hVXnbEKT3Nrka0%3fsid%3d9%26flags%3d8224%26sn%3d3</upnp:albumArtURI><dc:title>Eifersucht</dc:title><upnp:class>object.item.audioItem.musicTrack</upnp:class><dc:creator>Rammstein</dc:creator><upnp:album>Sehnsucht</upnp:album></item></DIDL-Lite>'}
-						if self.SonosRunning == False:
+						if self.SonosRunning is False:
 							self.SonosSoCo = None
 						self.SonosRunning = True
 						isMediaPlayer = "sonos"
