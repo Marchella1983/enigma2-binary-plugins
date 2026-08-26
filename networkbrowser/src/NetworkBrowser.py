@@ -222,7 +222,7 @@ class NetworkBrowser(Screen):
 				print("[Networkbrowser] error netscan.netzInfo", strIP, e)
 			else:
 				nwlist.append(nInfo)
-		return nwlist and nwlist[0] or nwlist
+		return nwlist[0] if nwlist else []
 
 	def getNetworkShares(self, hostip, hostname, devicetype):
 		sharelist = []
