@@ -1079,7 +1079,7 @@ msgid "Frame x2"
 msgstr "Фрейм x2"
 
 msgid "Fri"
-msgstr "Пятн"
+msgstr "Пт"
 
 msgid "FritzCall"
 msgstr "FritzCall"
@@ -1546,7 +1546,7 @@ msgid "Module 6"
 msgstr "Модуль 6"
 
 msgid "Mon"
-msgstr "Пон"
+msgstr "Пн"
 
 msgid "Month"
 msgstr "Месяц"
@@ -1907,7 +1907,7 @@ msgid "Samsung SPF-87H old 800x480"
 msgstr "Samsung SPF-87H alt 800x480"
 
 msgid "Sat"
-msgstr "Субб"
+msgstr "Суб"
 
 msgid "Satellite"
 msgstr "Спутник"
@@ -2154,7 +2154,7 @@ msgid "Stutter TV"
 msgstr "Заикание TV"
 
 msgid "Sun"
-msgstr "Воскр"
+msgstr "Вс"
 
 msgid "Sunrise"
 msgstr "Восход солнца"
@@ -2193,7 +2193,7 @@ msgid "Threads per LCD"
 msgstr "Threads pro LCD"
 
 msgid "Thur"
-msgstr "Чет"
+msgstr "Чт"
 
 msgid "Time"
 msgstr "Время"
