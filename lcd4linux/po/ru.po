@@ -28,7 +28,7 @@ msgstr "% + Load@5min"
 
 #, python-format
 msgid "%d Mails  %d New  %s"
-msgstr "%d Почта  %d Новая  %s"
+msgstr "%d Письма  %d Новое  %s"
 
 msgid "%d-%b-%Y"
 msgstr "%d-%b-%Y"
@@ -68,10 +68,10 @@ msgid "- Backlight On"
 msgstr "- Включение подсветки"
 
 msgid "- Backlight Weekend Off [disable set Off=On]"
-msgstr "- Подсвечивать выходные [для отключения установить Off = On]"
+msgstr "- Выкл подсветки в выходные [для отключения установить Off=On]"
 
 msgid "- Backlight Weekend On"
-msgstr "- Hintergrundbeleuchtung Wochenende Ein"
+msgstr "- Вкл подсветки в выходные"
 
 msgid "- Bar Range Max"
 msgstr "- Бар диапазон макс"
@@ -80,7 +80,7 @@ msgid "- Bar Range Min"
 msgstr "- Бар диапазон мин"
 
 msgid "- Base"
-msgstr "Основание"
+msgstr "Основное"
 
 msgid "- Border"
 msgstr "- Граница"
@@ -134,16 +134,16 @@ msgid "- Cut from Y"
 msgstr "- Вырезать из Y"
 
 msgid "- Default Cover [ok]>"
-msgstr "- По умолчанию обложка [ok]>"
+msgstr "- Обложка по умолчанию [ok]>"
 
 msgid "- Device Name"
-msgstr "- Имя устройства"
+msgstr "- Название устройства"
 
 msgid "- Download Cover"
 msgstr "- Скачать обложку"
 
 msgid "- Download Type"
-msgstr "- Скачать Тип"
+msgstr "- Тип загрузки"
 
 msgid "- Extra Color Chill"
 msgstr "- Дополнительные цвета"
@@ -164,7 +164,7 @@ msgid "- File or Path [ok]>"
 msgstr "- Файл или путь [ok]>"
 
 msgid "- Find Cover File [ok]>"
-msgstr "- Найти Обложка Файл [ok]>"
+msgstr "- Найти Файл обложки [ok]>"
 
 msgid "- Font"
 msgstr "- Шрифт"
@@ -278,7 +278,7 @@ msgid "- Online Name:Address"
 msgstr "- Ник:адрес"
 
 msgid "- Picon Cache Path [ok]>"
-msgstr "- Picon Cache путь [ok]>"
+msgstr "- Путь к кэшу пиконов [ok]>"
 
 msgid "- Picon First"
 msgstr "- Первый пикон"
@@ -305,10 +305,10 @@ msgid "- Picture [ok]>"
 msgstr "Картина [ok]"
 
 msgid "- Popup LCD"
-msgstr "- Popup LCD"
+msgstr "- Всплывающий LCD"
 
 msgid "- Popup Screen"
-msgstr "- Popup Screen"
+msgstr "- Всплывающее окно"
 
 msgid "- Position"
 msgstr "- Позиция"
@@ -332,7 +332,7 @@ msgid "- Rain Zoom"
 msgstr "- Увеличение дождя"
 
 msgid "- Rain use Color 2 from"
-msgstr "- Rain use Color 2 from"
+msgstr "- При дожде используйте цвет 2 из"
 
 msgid "- Screen 2 Changing Time"
 msgstr "- Экран 2 Изменение времени"
@@ -386,7 +386,7 @@ msgid "- Size"
 msgstr "- Размер"
 
 msgid "- Size max Height"
-msgstr "- Высота макс"
+msgstr "- Максимальный размер по высоте"
 
 msgid "- Size x"
 msgstr "- Размер по оси x"
@@ -782,13 +782,13 @@ msgid "Backup Config"
 msgstr "Задний план Конфиг"
 
 msgid "Bar"
-msgstr "Balken"
+msgstr "Бар"
 
 msgid "Bar+Value"
-msgstr "Balken+Wert"
+msgstr "Бар+Значение"
 
 msgid "Bitrate"
-msgstr "Bitrate"
+msgstr "Битрейт"
 
 msgid "BlueSound"
 msgstr "BlueSound"
@@ -1070,7 +1070,7 @@ msgid "Font 5 [ok]>"
 msgstr "Шрифт 5 [ok]>"
 
 msgid "Font global [ok]>"
-msgstr "Zeichensatz Global [ok]>"
+msgstr "Глобальный шрифт [ok]>"
 
 msgid "Frame"
 msgstr "Фрейм"
@@ -1124,13 +1124,13 @@ msgid "Full Moon"
 msgstr "Полнолуние"
 
 msgid "GUI Restart is required"
-msgstr "GUI необходимо перезагрузить"
+msgstr "Необходимо перезагрузить в GUI"
 
 msgid ""
 "GUI needs a restart to apply the changes.\n"
 "Do you want to Restart the GUI now?"
 msgstr ""
-"GUI должен быть перезапущен для активации изменений.\n"
+"Для активации изменений необходимо перезагрузить в GUI.\n"
 "Сделать это сейчас?"
 
 msgid "Global"
@@ -1155,7 +1155,7 @@ msgid "IP seurity not supported by Box"
 msgstr "Безопасность IP не поддерживается Box"
 
 msgid "Idle"
-msgstr "Праздный"
+msgstr "В режиме ожидания"
 
 msgid "Illumination only"
 msgstr "Только подсветка"
@@ -1203,7 +1203,7 @@ msgid "Key for Screen Change"
 msgstr "Клавиша изменения экрана"
 
 msgid "Key for Screen On/Off"
-msgstr "Key for Screen On/Off"
+msgstr "Ключ для экрана Вкл/Выкл"
 
 msgid "Knob"
 msgstr "Кнопка"
@@ -1269,19 +1269,19 @@ msgid "LCD4linux"
 msgstr "LCD4linux"
 
 msgid "LCD4linux Display-Mode Idle"
-msgstr "LCD4linux режим отображения праздный"
+msgstr "LCD4linux В режиме ожидания"
 
 msgid "LCD4linux Display-Mode MediaPlayer"
-msgstr "LCD4linux режим отображения Медиа плеер"
+msgstr "LCD4linux режим отображения в Медиа плеере"
 
 msgid "LCD4linux Display-Mode On"
-msgstr "LCD4linux режим отображения На"
+msgstr "LCD4linux режим отображения включение"
 
 msgid "LCD4linux Screen Switch"
-msgstr "LCD4linux Экран Выключатель"
+msgstr "LCD4linux Переключение экрана"
 
 msgid "LCD4linux Settings"
-msgstr "LCD4linux Выключатель"
+msgstr "LCD4linux Настройки"
 
 msgid "LCD4linux enabled"
 msgstr "LCD4linux включен"
@@ -1299,7 +1299,7 @@ msgid "Load Active Config-File"
 msgstr "Загрузить активный конфиг"
 
 msgid "Load Defaults / Empty Config"
-msgstr "Загрузить умолчанию / пустой конфиг"
+msgstr "Загрузить по умолчанию / пустой конфиг"
 
 #, python-format
 msgid "Load File : %s"
@@ -1312,10 +1312,10 @@ msgid "Load@5min"
 msgstr "Загрузить@5мин"
 
 msgid "Logfile extensive"
-msgstr "Logfile extensive"
+msgstr "Подробный файл журнала"
 
 msgid "Logfile normal"
-msgstr "Logfile normal"
+msgstr "Стандартный файл журнала"
 
 msgid "Long FastBackwardKey"
 msgstr "Долгое нажатие <<"
@@ -1585,7 +1585,7 @@ msgid "MusicCast Server IP [optional]"
 msgstr "MusicCast Сервер IP [по желанию]"
 
 msgid "Mute"
-msgstr "Немой"
+msgstr "Без звука"
 
 msgid "N"
 msgstr "N"
@@ -2040,16 +2040,16 @@ msgid "Service search first"
 msgstr "Поиск услуги в первую очередь"
 
 msgid "Set Global >>"
-msgstr "Задавать Глобальный >>"
+msgstr "Глобальные настройки >>"
 
 msgid "Set Idle >>"
-msgstr "Задавать Праздный  >>"
+msgstr "Настройки для режима ожидания  >>"
 
 msgid "Set Media >>"
-msgstr "Задавать СМИ >>"
+msgstr "Настройки для Медиа плеера >>"
 
 msgid "Set On >>"
-msgstr "Задавать На >>"
+msgstr "Настройки режима включения >>"
 
 msgid "Shadow Edges"
 msgstr "Края тени"
@@ -2133,7 +2133,7 @@ msgid "Sonos Refresh [s]"
 msgstr "Sonos Обновить [s]"
 
 msgid "Standby"
-msgstr "Ожидать"
+msgstr "Ожидание"
 
 msgid "Storage-Devices"
 msgstr "Хранение-Устройство"
