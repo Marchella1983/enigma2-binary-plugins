@@ -62,16 +62,16 @@ msgid "- Background/Transparency"
 msgstr "- Фон/Прозрачность"
 
 msgid "- Backlight Off [disable set Off=On]"
-msgstr "- Выключение подсветки [Off = On]"
+msgstr "- Выключение подсветки"
 
 msgid "- Backlight On"
 msgstr "- Включение подсветки"
 
 msgid "- Backlight Weekend Off [disable set Off=On]"
-msgstr "- Выкл подсветки в выходные [для отключения установить Off=On]"
+msgstr "- Выкл подсветки в выходные дни"
 
 msgid "- Backlight Weekend On"
-msgstr "- Вкл подсветки в выходные"
+msgstr "- Вкл подсветки в выходные дни"
 
 msgid "- Bar Range Max"
 msgstr "- Бар диапазон макс"
@@ -335,28 +335,28 @@ msgid "- Rain use Color 2 from"
 msgstr "- При дожде используйте цвет 2 из"
 
 msgid "- Screen 2 Changing Time"
-msgstr "- Экран 2 Изменение времени"
+msgstr "- Экран 2 Интервал времени"
 
 msgid "- Screen 3 Changing Time"
-msgstr "- Экран 3 Изменение времени"
+msgstr "- Экран 3 Интервал времени"
 
 msgid "- Screen 4 Changing Time"
-msgstr "- Экран 4 Изменение времени"
+msgstr "- Экран 4 Интервал времени"
 
 msgid "- Screen 5 Changing Time"
-msgstr "- Экран 5 Изменение времени"
+msgstr "- Экран 5 Интервал времени"
 
 msgid "- Screen 6 Changing Time"
-msgstr "- Экран 6 Изменение времени"
+msgstr "- Экран 6 Интервал времени"
 
 msgid "- Screen 7 Changing Time"
-msgstr "- Экран 7 Изменение времени"
+msgstr "- Экран 7 Интервал времени"
 
 msgid "- Screen 8 Changing Time"
-msgstr "- Экран 8 Изменение времени"
+msgstr "- Экран 8 Интервал времени"
 
 msgid "- Screen 9 Changing Time"
-msgstr "- Экран 9 Изменение времени"
+msgstr "- Экран 9 Интервал времени"
 
 msgid "- Screens used for Changing"
 msgstr "Функция используется для изменения экранов"
@@ -560,7 +560,7 @@ msgid "2 x InfoKey"
 msgstr "2 x EPG"
 
 msgid "2 x Mute"
-msgstr "2 x Немой"
+msgstr "2 x Без звука"
 
 msgid "2%"
 msgstr "2%"
@@ -815,7 +815,7 @@ msgid "Box-Skin-LCD Dimension"
 msgstr "Box-Skin-LCD размер"
 
 msgid "Box-Skin-LCD Enable Idle-Mode"
-msgstr "Box-Skin-LCD Aktiviere Idle-Mode"
+msgstr "Box-Skin-LCD включить режим ожидания"
 
 msgid "Box-Skin-LCD Enable Media-Mode"
 msgstr "Box-Skin-LCD включить медиа режим"
@@ -1010,7 +1010,7 @@ msgid "ENE"
 msgstr "E"
 
 msgid "EPG"
-msgstr "E"
+msgstr "EPG"
 
 msgid "ESE"
 msgstr "E"
@@ -1028,7 +1028,7 @@ msgid "Extended"
 msgstr "Расширенное"
 
 msgid "Extended (Short)"
-msgstr "Расширенное (Short)"
+msgstr "Расширенное (Краткий)"
 
 msgid "Extended Description"
 msgstr "Расширенное описание"
@@ -1130,7 +1130,7 @@ msgid ""
 "GUI needs a restart to apply the changes.\n"
 "Do you want to Restart the GUI now?"
 msgstr ""
-"Для активации изменений необходимо перезагрузить в GUI.\n"
+"Для активации изменений необходим Рестарт GUI.\n"
 "Сделать это сейчас?"
 
 msgid "Global"
@@ -1206,10 +1206,10 @@ msgid "Key for Screen On/Off"
 msgstr "Ключ для экрана Вкл/Выкл"
 
 msgid "Knob"
-msgstr "Кнопка"
+msgstr "Ручка"
 
 msgid "Knob+Value"
-msgstr "Кнопка + значение"
+msgstr "Ручка+Значение"
 
 msgid "LCD 1"
 msgstr "LCD 1"
@@ -1269,19 +1269,19 @@ msgid "LCD4linux"
 msgstr "LCD4linux"
 
 msgid "LCD4linux Display-Mode Idle"
-msgstr "LCD4linux В режиме ожидания"
+msgstr "Настройки показа LCD4linux В режиме ожидания"
 
 msgid "LCD4linux Display-Mode MediaPlayer"
-msgstr "LCD4linux режим отображения в Медиа плеере"
+msgstr "Настройки показа LCD4linux для Медиа плеера"
 
 msgid "LCD4linux Display-Mode On"
-msgstr "LCD4linux режим отображения включение"
+msgstr "Дополнительные настройки показа LCD4linux"
 
 msgid "LCD4linux Screen Switch"
 msgstr "LCD4linux Переключение экрана"
 
 msgid "LCD4linux Settings"
-msgstr "LCD4linux Настройки"
+msgstr "Глобальные настройки LCD4linux"
 
 msgid "LCD4linux enabled"
 msgstr "LCD4linux включен"
@@ -1342,34 +1342,34 @@ msgid "MJPEG Restart on Error"
 msgstr "MJPEG Перезагрузить при ошибке"
 
 msgid "MJPEG Stream"
-msgstr "MJPEG Ручей"
+msgstr "MJPEG Поток"
 
 msgid "MJPEG Stream LCD 1 Port"
-msgstr "MJPEG Ручей LCD 1 Порт"
+msgstr "MJPEG Поток LCD 1 Порт"
 
 msgid "MJPEG Stream LCD 1 Virtual Brightness"
-msgstr "MJPEG Ручей LCD 1 виртуальная яркость"
+msgstr "MJPEG Поток LCD 1 виртуальная яркость"
 
 msgid "MJPEG Stream LCD 1 enable"
-msgstr "MJPEG Ручей LCD 1 включить"
+msgstr "MJPEG Поток LCD 1 включить"
 
 msgid "MJPEG Stream LCD 2 Port"
-msgstr "MJPEG Ручей LCD 2 Порт"
+msgstr "MJPEG Поток LCD 2 Порт"
 
 msgid "MJPEG Stream LCD 2 Virtual Brightness"
-msgstr "MJPEG Ручей LCD 2 виртуальная яркость"
+msgstr "MJPEG Поток LCD 2 виртуальная яркость"
 
 msgid "MJPEG Stream LCD 2 enable"
-msgstr "MJPEG Ручей LCD 2 включить"
+msgstr "MJPEG Поток LCD 2 включить"
 
 msgid "MJPEG Stream LCD 3 Port"
-msgstr "MJPEG Ручей LCD 3 Порт"
+msgstr "MJPEG Поток LCD 3 Порт"
 
 msgid "MJPEG Stream LCD 3 Virtual Brightness"
-msgstr "MJPEG Ручей LCD 3 виртуальная яркость"
+msgstr "MJPEG Поток LCD 3 виртуальная яркость"
 
 msgid "MJPEG Stream LCD 3 enable"
-msgstr "MJPEG Ручей LCD 3 включить"
+msgstr "MJPEG Поток LCD 3 включить"
 
 msgid "MSN"
 msgstr "MSN"
@@ -1552,7 +1552,7 @@ msgid "Month"
 msgstr "Месяц"
 
 msgid "Month+Header"
-msgstr "Месяц + заголовок"
+msgstr "Месяц+Заголовок"
 
 msgid "Moon-Icon-Path [ok]>"
 msgstr "Месяц-путь к иконкам[ok]>"
@@ -1624,7 +1624,7 @@ msgid "Netatmo Comfort Indicator"
 msgstr "Netatmo Комфорт Индикатор"
 
 msgid "Network Check active"
-msgstr "Проверка сети активна"
+msgstr "Проверка активности сети"
 
 msgid "New Moon"
 msgstr "Новолуние"
@@ -1645,10 +1645,10 @@ msgid "Normal (5s)"
 msgstr "Нормальный (5с)"
 
 msgid "Now/Next"
-msgstr "Сейчас/дальше"
+msgstr "Сейчас/далее"
 
 msgid "OSCAM not running"
-msgstr "OSCAMне запущен"
+msgstr "OSCAM не запущен"
 
 msgid "OSD"
 msgstr "OSD"
@@ -1754,7 +1754,7 @@ msgid "Picture not available"
 msgstr "Картина недоступен"
 
 msgid "Plug Tuner"
-msgstr "Затыкать Тюнер"
+msgstr ""
 
 msgid "Pop3"
 msgstr "Pop3"
@@ -1766,7 +1766,7 @@ msgid "Popup Text"
 msgstr "Всплывающий текст"
 
 msgid "Popup-Text"
-msgstr "Всплывающий- текст"
+msgstr "Всплывающий-текст"
 
 msgid "Position"
 msgstr "Позиция"
@@ -1835,7 +1835,7 @@ msgid "Remote Box Poll every Minutes"
 msgstr "Удаленный ящик Опрашивайте каждую минуту"
 
 msgid "Remote Box Timer"
-msgstr "Удаленный ящик v"
+msgstr "Удаленный ящик"
 
 msgid "Remote Box Timer Poll every Minutes"
 msgstr "Удаленный ящик Таймер Опрашивайте каждую минуту"
@@ -1907,7 +1907,7 @@ msgid "Samsung SPF-87H old 800x480"
 msgstr "Samsung SPF-87H alt 800x480"
 
 msgid "Sat"
-msgstr "Суб"
+msgstr "Сб"
 
 msgid "Satellite"
 msgstr "Спутник"
@@ -1932,7 +1932,7 @@ msgid "Screen 1"
 msgstr "Экран 1"
 
 msgid "Screen 1 Changing Time"
-msgstr "Экран 1-Изменить время"
+msgstr "Экран 1 Интервал времени"
 
 msgid "Screen 1+2"
 msgstr "Экран 1+2"
@@ -2043,13 +2043,13 @@ msgid "Set Global >>"
 msgstr "Глобальные настройки >>"
 
 msgid "Set Idle >>"
-msgstr "Настройки для режима ожидания  >>"
+msgstr "Настройки для Режима ожидания  >>"
 
 msgid "Set Media >>"
-msgstr "Настройки для Медиа плеера >>"
+msgstr "Настройки для Медиа  >>"
 
 msgid "Set On >>"
-msgstr "Настройки режима включения >>"
+msgstr "Дополнительные настройки  >>"
 
 msgid "Shadow Edges"
 msgstr "Края тени"
@@ -2292,13 +2292,13 @@ msgid "Weather 2"
 msgstr "Погода 2"
 
 msgid "Weather API"
-msgstr "Weather"
+msgstr ""
 
 msgid "Weather API-ID Key WeatherUnlocked"
-msgstr "Weather API-ID Key WeatherUnlocked"
+msgstr "Ваш API-ID ключ WeatherUnlocked"
 
 msgid "Weather API-Key OpenWeatherMap"
-msgstr "Weather API-Key OpenWeatherMap"
+msgstr "Ваш API-ключ для OpenWeatherMap"
 
 msgid "Weather City"
 msgstr "Погода-Город"
