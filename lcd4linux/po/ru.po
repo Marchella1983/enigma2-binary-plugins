@@ -1861,9 +1861,6 @@ msgstr "ЮЮЗ"
 msgid "SW"
 msgstr "ЮЗ"
 
-msgid "SW"
-msgstr "ЮЗ"
-
 msgid "Samsung SPF-1000P 1024x600"
 msgstr "Samsung SPF-1000P 1024x600"
 
