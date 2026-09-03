@@ -200,7 +200,7 @@ msgid "- LCD 1 Brightness"
 msgstr "- LCD 1 Яркость"
 
 msgid "- LCD 1 Night Reduction"
-msgstr "- LCD 1 Ночное сокращение"
+msgstr "- LCD 1 Ночное снижение яркости"
 
 msgid "- LCD 1 Refresh"
 msgstr "- LCD 1 Обновлять"
@@ -218,7 +218,7 @@ msgid "- LCD 2 Brightness"
 msgstr "- LCD 2 Яркость"
 
 msgid "- LCD 2 Night Reduction"
-msgstr "- LCD 2 Ночное сокращение"
+msgstr "- LCD 2 Ночное снижение яркости"
 
 msgid "- LCD 2 Refresh"
 msgstr "- LCD 2 Обновить"
@@ -236,7 +236,7 @@ msgid "- LCD 3 Brightness"
 msgstr "- LCD 3 Яркость"
 
 msgid "- LCD 3 Night Reduction"
-msgstr "- LCD 3 Ночное сокращение"
+msgstr "- LCD 3 Ночное снижение яркости"
 
 msgid "- LCD 3 Refresh"
 msgstr "- LCD 3 Обновить"
@@ -1648,7 +1648,7 @@ msgid "OSD"
 msgstr "OSD"
 
 msgid "OSD [display time]"
-msgstr "OSD [Отображение времени]"
+msgstr "Время отображения OSD"
 
 msgid "Offline"
 msgstr "Оффлайн"
