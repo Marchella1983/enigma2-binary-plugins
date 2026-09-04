@@ -20,11 +20,11 @@ msgstr "% + BER"
 
 #, python-format
 msgid "% + Load@1min"
-msgstr "% + Загрузка@1мин"
+msgstr " % + Загрузка@1мин "
 
 #, python-format
 msgid "% + Load@5min"
-msgstr "% + Загрузка@5мин"
+msgstr " % + Загрузка@5мин "
 
 #, python-format
 msgid "%d Mails  %d New  %s"
