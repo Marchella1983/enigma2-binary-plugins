@@ -59,7 +59,7 @@ msgid "- Background Color"
 msgstr "- Цвет фона"
 
 msgid "- Background/Transparency"
-msgstr "- Фон/Прозрачность"
+msgstr "- На Фоне или прозрачный"
 
 msgid "- Backlight Off [disable set Off=On]"
 msgstr "- Выключение подсветки"
@@ -380,7 +380,7 @@ msgid "- Show chill temperature from difference"
 msgstr "- Показать разницу температур"
 
 msgid "- Show in Mode"
-msgstr "- Показать в режиме"
+msgstr "- Режиме показа OSD"
 
 msgid "- Size"
 msgstr "- Размер"
@@ -1648,7 +1648,7 @@ msgid "OSD"
 msgstr "OSD"
 
 msgid "OSD [display time]"
-msgstr "Время отображения OSD"
+msgstr "Показ OSD E2"
 
 msgid "Offline"
 msgstr "Оффлайн"
@@ -2160,7 +2160,7 @@ msgid "TV"
 msgstr "ТВ"
 
 msgid "TV (full)"
-msgstr "ТВ (полный)"
+msgstr "Только ТВ"
 
 msgid "TV+OSD"
 msgstr "ТВ+OSD"
@@ -2590,7 +2590,7 @@ msgid "normal"
 msgstr "нормальный"
 
 msgid "normal (full)"
-msgstr "нормальный (полный)"
+msgstr "Полный (всё)"
 
 msgid "off"
 msgstr "выкл"
@@ -2689,10 +2689,10 @@ msgid "tomato"
 msgstr "томат"
 
 msgid "trimmed (black)"
-msgstr "обрезается (черный)"
+msgstr "Чёрный фон (без фона lcd4linux)"
 
 msgid "trimmed (transparent)"
-msgstr "обрезается (прозрачный)"
+msgstr "Прозрачный фон (на фоне lcd4linux)"
 
 msgid "two lines"
 msgstr "две строки"
