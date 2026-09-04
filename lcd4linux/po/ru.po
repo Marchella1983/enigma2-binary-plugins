@@ -59,7 +59,7 @@ msgid "- Background Color"
 msgstr "- Цвет фона"
 
 msgid "- Background/Transparency"
-msgstr "- На Фоне или прозрачный"
+msgstr "- Фон/Прозрачность"
 
 msgid "- Backlight Off [disable set Off=On]"
 msgstr "- Выключение подсветки"
